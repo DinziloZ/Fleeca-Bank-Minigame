@@ -80,7 +80,7 @@ class NoPixel_Fleeca{
             minigame['groups'].push(group);
         }
 
-        quiz_numbers = this.range(0, 3);
+        quiz_numbers = this.range(0, 7);
         this.shuffle(quiz_numbers);
 
         types = [...this.types];
